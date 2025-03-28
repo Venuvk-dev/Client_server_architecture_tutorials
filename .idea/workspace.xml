@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f7c06409-171e-499f-a8e1-94a710669c0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client_server_architectures.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tutorial1/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tutorial1/MessagePassingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tutorial1/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tutorial1/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutorial1/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tutorial1/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutorial1/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tutorial1/Sender.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Venuvk-dev"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Venuvk-dev/Client_server_architecture_tutorials.git",
+    "accountId": "1b46d78e-718d-4e8d-9835-0588c02ec0bd"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -40,7 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/IIT/Tutorials/Client_Server_Architectures/Client_server_architectures/src/Main.java"
   }
