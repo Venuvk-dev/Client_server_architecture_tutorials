@@ -74,7 +74,7 @@ public class Client{
 
             /* **Print the server response to the console. The System.out.println method is used here,
             which prints a string followed by a newline to the console.** */
-            System.out.println("Server message is: "+message);
+            System.out.println("Server message is: "+ message);
         }
 
         /* **Catch any IOException that may occur and print the stack trace.
