@@ -5,9 +5,39 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 import java.util.Scanner;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 /* **Define a public class named SimpleChatClient. This class will contain all the logic for our chat client program.** */
 public class SimpleChatClient {
+    // Create a Logger instance
+    private static final Logger logger = Logger.getLogger(SimpleChatClient.class.getName());
+
+    // Configure FileHandler in a static block
+    static {
+        try {
+            // Set up FileHandler to save logs to "client_logs.txt" with append mode (true)
+            FileHandler fileHandler = new FileHandler("client_logs.txt", true);
+
+            // Use SimpleFormatter for human-readable logs
+            SimpleFormatter formatter = new SimpleFormatter();
+            fileHandler.setFormatter(formatter);
+
+            // Add the FileHandler to our Logger instance
+            logger.addHandler(fileHandler);
+
+            // Set the logging level
+            logger.setLevel(Level.ALL);
+
+            logger.info("Logger initialized for SimpleChatClient");
+        } catch (IOException e) {
+            logger.log(Level.SEVERE, "Failed to set up file handler for logger", e);
+        }
+    }
+
+
     /* **Define the main method. This is the entry point for any Java application.** */
     public static void main(String[] args) {
 
