@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7c06409-171e-499f-a8e1-94a710669c0d" name="Changes" comment="commits of the Client class">
+    <list default="true" id="f7c06409-171e-499f-a8e1-94a710669c0d" name="Changes" comment="commits of the SimpleChatClient.java class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,12 +102,38 @@
       <option name="project" value="LOCAL" />
       <updated>1743964974060</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commits of the Client class">
+      <option name="closed" value="true" />
+      <created>1743966202101</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743966202101</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commits of the SimpleChatServer.java class">
+      <option name="closed" value="true" />
+      <created>1743966356270</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743966356270</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commits of the SimpleChatClient.java class">
+      <option name="closed" value="true" />
+      <created>1743966455868</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743966455868</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commits of the Server class" />
     <MESSAGE value="commits of the Client class" />
-    <option name="LAST_COMMIT_MESSAGE" value="commits of the Client class" />
+    <MESSAGE value="commits of the SimpleChatServer.java class" />
+    <MESSAGE value="commits of the SimpleChatClient.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="commits of the SimpleChatClient.java class" />
   </component>
 </project>
