@@ -60,7 +60,7 @@ public class SimpleChatClient {
                 String response = new String(buffer, 0, bytesRead);
 
                 /* **Print the server's response to the console.** */
-                System.out.println("Server response: " + response);
+                System.out.println("Server responsed: " + response);
             }
 
             // Close resources
