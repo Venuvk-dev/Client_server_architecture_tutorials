@@ -40,16 +40,19 @@ public class SimpleChatClient {
 
     /* **Define the main method. This is the entry point for any Java application.** */
     public static void main(String[] args) {
+        logger.info("Client application is starting");
 
         /* **Try to establish a connection to the server and handle communication with the server.
         If an IOException occurs, it will be caught and handled in the catch block.** */
         try {
             /* **Create a new Socket object to connect to the server.
             The Socket constructor takes two parameters: the server's IP address (or hostname) and the port number.** */
+            logger.info("Attempting to connect to server at localhost:12345");
             Socket socket = new Socket("localhost", 12345);
 
             /* **Print a message to the console indicating that the client has connected to the server.** */
-            System.out.println("Connected to server at localhost:12345");
+            logger.info("Connected with the localhost:12345");
+
 
             /* **Get the input stream of the socket. This stream is used to receive data from the server.** */
             InputStream inputStream = socket.getInputStream();
@@ -60,6 +63,7 @@ public class SimpleChatClient {
             /* **Create a Scanner object to read input from the user. The Scanner constructor takes an input stream as a parameter.
             Here, we pass System.in to read input from the console.** */
             Scanner scanner = new Scanner(System.in);
+            logger.info("Starting message exchange loop");
 
             /* **Enter an infinite loop where the client will continuously send messages to the server and receive responses.** */
             while (true) {
@@ -91,15 +95,21 @@ public class SimpleChatClient {
 
                 /* **Print the server's response to the console.** */
                 System.out.println("Server responsed: " + response);
+                logger.info("Received message from the server "+response);
             }
 
             // Close resources
+            logger.info("Closing resources");
             scanner.close();
             socket.close();
+            logger.info("Socket closed successfully");
+
 
         } catch (IOException e) {
             /* **Catch any IOException that may occur and print the stack trace.
             An IOException is thrown when an input-output operation is failed or interrupted.** */
+            System.err.println("IO Exception occurred: " + e.getMessage());
+            logger.log(Level.SEVERE, "IO Exception occurred", e);
             e.printStackTrace();
         }
     }
